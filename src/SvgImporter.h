@@ -3,13 +3,13 @@
 
 namespace Homework {
 	
-	/// @brief Imports a document from SVG format
-	class SvgImporter : public DocumentImporter {
+/// @brief Imports a document from SVG format
+class SvgImporter : public DocumentImporter {
 
-		void importFromFile(Document& document, const std::string& filepath) override {
-			//implementation
-		}
-	};
+	void importFromFile(Document& document, const std::string& filepath) override {
+		//implementation
+	}
+};
 
 }
 

@@ -7,7 +7,6 @@ namespace Homework {
 
 /// @brief A document contains all shapes which were drawn.
 class Document {
-
 public:
     Document() = default;
     Document(const Document&) = delete;

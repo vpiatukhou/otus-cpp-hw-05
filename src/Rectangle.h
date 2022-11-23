@@ -4,19 +4,18 @@
 
 namespace Homework {
 
-    class Rectangle : public Shape {
+class Rectangle : public Shape {
+public:
+    Rectangle(const std::string& name, const Color& color, int orderInLayer)
+        : Shape(name, color, orderInLayer) { }
 
-    public:
-        Rectangle(const std::string& name, const Color& color, int orderInLayer)
-            : Shape(name, color, orderInLayer) { }
+    void setHeight(double height) {
+        //implementation
+    }
 
-        void setHeight(double height) {
-            //implementation
-        }
-
-        void setWeight(double weight) {
-            //implementation
-        }
-    };
+    void setWeight(double weight) {
+        //implementation
+    }
+};
 
 };

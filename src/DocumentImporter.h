@@ -7,7 +7,6 @@ namespace Homework {
 
 /// @brief A base class for all document importers.
 class DocumentImporter {
-
 public:
     /// @brief Imports a document from the given file.
 	/// @param document - an empty document which will be populated from the file

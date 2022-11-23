@@ -5,34 +5,34 @@
 
 namespace Homework {
 
-    /// @brief A base class for all objects which can be drawn.
-    class Shape {
-    public:
-        virtual ~Shape() = default;
+/// @brief A base class for all objects which can be drawn.
+class Shape {
+public:
+    virtual ~Shape() = default;
 
-        void setName(const std::string& name) {
-            //implementation
-        }
+    void setName(const std::string& name) {
+        //implementation
+    }
 
-        void setColor(const Color& color) {
-            //implementation
-        }
+    void setColor(const Color& color) {
+        //implementation
+    }
 
-        void setOrderInLayer(int orderInLayer) {
-            //implementation
-        }
+    void setOrderInLayer(int orderInLayer) {
+        //implementation
+    }
 
-        void setPositionX(double positionX) {
-            //implementation
-        }
+    void setPositionX(double positionX) {
+        //implementation
+    }
 
-        void setPositionY(double positionY) {
-            //implementation
-        }
-    protected:
-        Shape(const std::string& name, const Color& color, int orderInLayer) {
-            //implementation
-        }
-    };
+    void setPositionY(double positionY) {
+        //implementation
+    }
+protected:
+    Shape(const std::string& name, const Color& color, int orderInLayer) {
+        //implementation
+    }
+};
 
 };

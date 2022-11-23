@@ -10,10 +10,8 @@ namespace Homework {
 
 /// @brief Provides API to manage documents (CRUD, import, export etc.) and holds an already created document.
 class DocumentManager {
-
 private:
     std::shared_ptr<Document> document = nullptr;
-
 public:
     DocumentManager() = default;
 

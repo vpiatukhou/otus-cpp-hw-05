@@ -5,7 +5,6 @@
 namespace Homework {
 
 class Ellipse : public Shape {
-
 public:
     Ellipse(const std::string& name, const Color& color, int orderInLayer)
         : Shape(name, color, orderInLayer) { }
